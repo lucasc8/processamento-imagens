@@ -1,5 +1,6 @@
 # processamento-imagens
 trabalho sobre processamento de imagens com opencv em python 
+bibliotecas utilizadas: cv2, numpy e matplot
 
 -> Carregamento de imagem
 O que o Script faz:
@@ -21,6 +22,13 @@ Carrega uma imagem em preto e branco.
 Cria uma imagem colorida a partir da imagem em preto e branco.
 Aplica cores em regiões específicas da imagem, criando um efeito de colorização básica.
 Exibe a imagem original em preto e branco e a imagem colorida.
+
+-> Detecção de contornos, cantos e pontos de atenção
+O que o código faz:
+Shi-Tomasi: Detecta cantos usando o método Shi-Tomasi.
+Harris: Detecta cantos usando o método Harris.
+Contornos: Detecta contornos na imagem.
+SIFT: Detecta pontos de interesse usando o algoritmo SIFT.
 
 
 
